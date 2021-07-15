@@ -18,4 +18,4 @@ Simple and lightweight dictionary site 📕
 
 Just download or clone the project into your local machine and open <b>index.html</b> in your browser.
 
-### <a href="https://lynchzival.github.io/dictionary" target="_blank">Demo</a>
+### [Demo](https://lynchzival.github.io/dictionary)
