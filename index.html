@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="shortcut icon" href="img/dictionary.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="jumbotron rounded-0 mb-0 pt-4" id="content-header">
+            <div class="row">
+                <div class="col-8 offset-2 text-center">
+                    <img class="logo" src="img/dictionary.svg" alt="icon">
+                    <form action="#" class="input-group" id="form">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-info shadow-none" id="historyBtn"><i class="fas fa-clock"></i></button>
+                        </div>
+                        <input type="text" class="form-control border-info" placeholder="Type...">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-info shadow-none">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-fluid bg-dark text-white p-5" id="content-body">
+            <div class="row">
+                <div class="col-12 col-sm-8 offset-0 offset-sm-2">
+                    <img src="img/puff.svg" alt="loading-icon" class="d-none" id="loading-image">
+                    <div id="content" class="pb-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

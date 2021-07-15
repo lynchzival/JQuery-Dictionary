@@ -1,0 +1,49 @@
+html,
+body{
+    height: 100%;
+}
+
+a{ 
+    text-decoration: none !important; 
+}
+
+.ref-word:hover{
+    background: #17A2B8;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+img.logo{
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    margin: auto;
+    margin-bottom: 1.25rem;
+}
+
+.history-content{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#content-header{
+    flex: 0 1 auto;
+}
+
+#content-body{
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+#loading-image{
+    display: block;
+    margin: auto;
+}
+
+#btnClear > button{
+    background: white;
+}
