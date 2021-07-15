@@ -6,7 +6,7 @@ Simple and lightweight dictionary site 📕
 ### Features
 
 * Clickable word in one word's definition(s), to further find its meaning.
-* Words' history via LocalStorage.
+* Search history via LocalStorage.
 * Support additional search via google or google dictionary, if word can't be found.
 * Responsive.
 * Easy to setup and use, with no server-side scripting.
