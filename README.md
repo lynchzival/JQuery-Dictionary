@@ -12,8 +12,6 @@ Simple and lightweight dictionary site 📕
 * Easy to setup and use, with no server-side scripting.
 * Built with [Free Dictionary API](https://dictionaryapi.dev).
 
-![img](https://raw.githubusercontent.com/lynchzival/dictionary/main/img/body.png)
-
 ### Setup
 
 Just download or clone the project into your local machine and open <b>index.html</b> in your browser.
