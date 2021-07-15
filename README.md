@@ -5,7 +5,7 @@ Simple and lightweight JS dictionary 📕
 
 ### Features
 
-* In definition search. Clickable href word in word's definition section, make it easy for you to find its meaning if you ever get stucked while reading the definition.
+* In definition search. Clickable href word through word's definition section, make it easy for you to find its meaning if you ever get stucked while reading the definition.
 * Search history via LocalStorage.
 * Support additional search via Google or Google Dictionary, if word can't be found.
 * Responsive UI design.
