@@ -13,8 +13,9 @@ Simple and lightweight JS dictionary 📕
 
 ### Setup
 
-Just download or clone the project into your local machine and open <b>index.html</b> in your web browser. 
+Just download or clone the project into your local machine and open <b>index.html</b> in your web browser. <br>
 > Might not work on old IE but imagine not using FireFox or Chromium based browsers.
+> > Internet connection is required to fetch data from API.
 
 Built with [JQuery](https://jquery.com/), [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) & [Free Dictionary API](https://dictionaryapi.dev).
 
