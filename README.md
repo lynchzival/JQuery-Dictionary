@@ -19,4 +19,4 @@ Just download or clone the project into your local machine and open <b>index.htm
 
 Built with [JQuery](https://jquery.com/), [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) & [Free Dictionary API](https://dictionaryapi.dev).
 
-### [Demo](https://lynchzival.github.io/dictionary)
+### [Demo](https://lynchzival.github.io/JQuery-Dictionary/)
