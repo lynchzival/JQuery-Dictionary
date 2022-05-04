@@ -5,8 +5,8 @@ Simple and lightweight JS dictionary 📕
 
 ### Features
 
-* Searchable word through sentences 
-* Search history
+* Clickable word throughout sentences
+* Search history (localstorage)
 * External Google Search.
 
 ### Setup
