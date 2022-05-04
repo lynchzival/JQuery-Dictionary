@@ -39,10 +39,13 @@ $(document).ready(function(){
                         $.each(obj[i].phonetics, (k) => {
                             content.find(`div.word-${i}`).append(`
                                 <p class="lead">
-                                    <audio src="${obj[i].phonetics[k].audio}" class="audio"></audio>
-                                    <a href="javascript:void(0)" class="text-info audio-btn"> 
-                                        <i class="fas fw fa-play mr-2"></i>
-                                    </a>
+                                    ${
+                                        obj[i].phonetics[k].audio != "" ? `
+                                        <audio src="${obj[i].phonetics[k].audio}" class="audio"></audio>
+                                        <a href="javascript:void(0)" class="text-info audio-btn"> 
+                                            <i class="fas fw fa-play mr-2"></i>
+                                        </a> ` : ""
+                                    }
                                     ${obj[i].phonetics[k].text}
                                 </p>
                             `);
