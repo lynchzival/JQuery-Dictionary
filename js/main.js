@@ -46,7 +46,7 @@ $(document).ready(function(){
                                             <i class="fas fw fa-play mr-2"></i>
                                         </a> ` : ""
                                     }
-                                    ${obj[i].phonetics[k].text}
+                                    ${!(obj[i].phonetics[k].text) ? "" : obj[i].phonetics[k].text}
                                 </p>
                             `);
                         });
