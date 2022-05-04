@@ -16,7 +16,8 @@ Simple and lightweight JS dictionary 📕
    ```sh
    git clone https://github.com/lynchzival/JQuery-Dictionary.git
    ```
-> Internet connection is required to fetch data from API.
+2. Open `index.html`
+   > Internet connection is required to fetch data from API.
 
 Built with [JQuery](https://jquery.com/), [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) & [Free Dictionary API](https://dictionaryapi.dev).
 
